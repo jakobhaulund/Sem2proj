@@ -1,5 +1,32 @@
-﻿<Properties StartupConfiguration="{788F2416-2CB5-4F27-AD99-A3934A32C926}|Default">
-  <MultiItemStartupConfigurations />
-  <MonoDevelop.Ide.ItemProperties.Server FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Client FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+﻿<Properties StartupConfiguration="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}|Default">
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{788F2416-2CB5-4F27-AD99-A3934A32C926}" ItemName="Client" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints />
+  <MonoDevelop.Ide.ItemProperties.Server FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Server/Program.cs">
+    <Files>
+      <File FileName="Server/Program.cs" Line="17" Column="2" />
+    </Files>
+    <Pads>
+      <Pad Id="ProjectPad">
+        <State name="__root__">
+          <Node name="Miljøfestivalen" expanded="True">
+            <Node name="Client" expanded="True" />
+            <Node name="Server" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="appsettings.json" selected="True" />
+            </Node>
+          </Node>
+        </State>
+      </Pad>
+    </Pads>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
 </Properties>
