@@ -1,29 +1,57 @@
-﻿<Properties StartupConfiguration="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}|Default">
+﻿<Properties StartupConfiguration="Multiple Projects">
   <MultiItemStartupConfigurations>
     <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
       <Items>
         <StartupItem ItemId="{788F2416-2CB5-4F27-AD99-A3934A32C926}" ItemName="Client" ConfigurationId="Default" />
+        <StartupItem ItemId="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}" ItemName="Server" ConfigurationId="Default" />
       </Items>
     </MultiItemSolutionRunConfiguration>
   </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints />
-  <MonoDevelop.Ide.ItemProperties.Shared FirstBuild="True" />
-  <MonoDevelop.Ide.ItemProperties.Server FirstBuild="True" PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Server/WeatherForecast.cs">
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/Booking.cs">
     <Files>
       <File FileName="Server/Program.cs" />
       <File FileName="Server/appsettings.json" />
-      <File FileName="Server/WeatherForecast.cs" Line="1" Column="1" />
+      <File FileName="Server/WeatherForecast.cs" />
+      <File FileName="Shared/Bruger.cs" />
+      <File FileName="Shared/Vagt.cs" />
+      <File FileName="Server/Repositories/FrivilligRepository.cs" />
+      <File FileName="Server/Repositories/IFrivilligRepository.cs" />
+      <File FileName="Server/Repositories/KoordinatorRepository.cs" />
+      <File FileName="Server/Repositories/IKoordinatorRepository.cs" />
+      <File FileName="Server/Repositories/VagtRepository.cs" />
+      <File FileName="Server/Repositories/IVagtRepository.cs" />
+      <File FileName="Server/Repositories/IBookingRepository.cs" />
+      <File FileName="Server/Controllers/WeatherForecastController.cs" />
+      <File FileName="Server/Controllers/BookingController.cs" />
+      <File FileName="Server/Controllers/FrivilligController.cs" />
+      <File FileName="Server/Controllers/KoordinatorController.cs" />
+      <File FileName="Server/Controllers/VagtController.cs" Line="1" Column="1" />
+      <File FileName="Shared/Koordinator.cs" Line="1" Column="1" />
+      <File FileName="Client/Pages/VagterTest.razor" Line="1" Column="1" />
+      <File FileName="Shared/Booking.cs" Line="1" Column="1" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Miljøfestivalen" expanded="True">
-            <Node name="Client" expanded="True" />
+            <Node name="Client" expanded="True">
+              <Node name="Dependencies" expanded="True" />
+              <Node name="Client" expanded="True" />
+              <Node name="Pages" expanded="True" />
+            </Node>
             <Node name="Server" expanded="True">
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+              </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Properties" expanded="True" />
-              <Node name="WeatherForecast.cs" selected="True" />
+              <Node name="Repositories" expanded="True" />
+            </Node>
+            <Node name="Shared" expanded="True">
+              <Node name="Booking.cs" selected="True" />
             </Node>
           </Node>
         </State>

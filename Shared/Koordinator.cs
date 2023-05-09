@@ -9,6 +9,7 @@ namespace Miljøfestivalen.Shared
 	public class Koordinator : Bruger
 	{
 		public int KoordinatorId { get; set; }
+		public int Højde { get; set; }
 	}
 }
 
