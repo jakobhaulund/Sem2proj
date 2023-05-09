@@ -1,0 +1,12 @@
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/bin/Debug/net6.0/Shared.deps.json
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/bin/Debug/net6.0/Shared.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/bin/Debug/net6.0/Shared.pdb
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.csproj.AssemblyReference.cache
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.GeneratedMSBuildEditorConfig.editorconfig
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.AssemblyInfoInputs.cache
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.AssemblyInfo.cs
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.csproj.CoreCompileInputs.cache
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/refint/Shared.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/Shared.pdb
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/Debug/net6.0/ref/Shared.dll

@@ -30,3 +30,5 @@
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net6.0/Server.pdb
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net6.0/Server.genruntimeconfig.cache
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net6.0/ref/Server.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/bin/Debug/net6.0/Shared.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/bin/Debug/net6.0/Shared.pdb
