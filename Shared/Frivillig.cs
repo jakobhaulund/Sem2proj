@@ -8,8 +8,5 @@ namespace Miljøfestivalen.Shared
 {
     public class Frivillig : Bruger
     {
-        public int FrivilligId { get; set; }
-        public bool ErAktiv { get; set; }
-        public bool ErBlacklistet { get; set; }
     }
 }

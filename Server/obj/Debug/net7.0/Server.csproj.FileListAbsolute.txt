@@ -92,3 +92,5 @@ C:/Users/jakob/OneDrive/Skrivebord/Sem2Proj/Sem2proj/Server/obj/Debug/net7.0/ref
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/Server.pdb
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/Server.genruntimeconfig.cache
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/ref/Server.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/bin/Debug/net7.0/Dapper.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/bin/Debug/net7.0/Npgsql.dll

@@ -1,0 +1,22 @@
+@page "/brugere"
+@using Miljøfestivalen.Shared
+@inject HttpClient Http;
+
+<PageTitle>Bruger test</PageTitle>
+<h1>Hey</h1>
+
+@code {
+
+    private Bruger[] BrugerListe = new Bruger[];
+
+    protected override async Task OnInitializedAsync()
+    {
+        BrugerListe = await Http.GetFromJsonAsync<Bruger[]>("https://localhost:7195/api/brugere");
+        foreach(var bruger in BrugerListe)
+        {
+            Console.WriteLine(bruger.Brugernavn);
+        }
+    }
+
+}
+

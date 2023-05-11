@@ -8,10 +8,9 @@ namespace Miljøfestivalen.Shared
 {
 	public class Booking
 	{
-		public int VagtBookingId { get; set; }
+		public int BookingId { get; set; }
 		public Vagt Vagt { get; set;}
 		public Frivillig Frivillig { get; set; }
-		public Koordinator Koordinator { get; set; }
 	}
 }
 
