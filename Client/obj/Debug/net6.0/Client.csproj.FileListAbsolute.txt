@@ -1742,3 +1742,9 @@ C:/Users/jakob/OneDrive/Skrivebord/Sem2Proj/Sem2proj/Client/obj/Debug/net6.0/ref
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/obj/Debug/net6.0/refint/Client.dll
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/obj/Debug/net6.0/Client.pdb
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/obj/Debug/net6.0/ref/Client.dll
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.AssemblyInfo.cs
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.MvcApplicationPartsAssemblyInfo.cache

@@ -92,3 +92,9 @@ C:/Users/jakob/OneDrive/Skrivebord/Sem2Proj/Sem2proj/Server/obj/Debug/net7.0/ref
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/Server.pdb
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/Server.genruntimeconfig.cache
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/ref/Server.dll
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
