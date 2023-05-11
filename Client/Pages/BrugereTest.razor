@@ -24,6 +24,13 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-        brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
+        try
+        {
+            brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
+        }
+        catch(Exception ex)
+        {
+            Console.WriteLine(ex.Message);
+        }
     }
 }

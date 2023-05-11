@@ -2,6 +2,8 @@
 using Dapper;
 using Npgsql;
 using Miljøfestivalen.Shared;
+using System.Diagnostics;
+using System.Data;
 
 namespace Server.Repositories
 {
@@ -10,17 +12,15 @@ namespace Server.Repositories
 
        public IEnumerable<Bruger> GetBrugere()
        {
-            var ConnString = "UserID=hrcbomrh;Password=czku8YaHYA3BBb7nRQgvRxrPZb2LoZGC;Host=dumbo.db.elephantsql.com;Port=5432;Database=hrcbomrh;";
+            string ConnString = "User ID=hrcbomrh;Password=czku8YaHYA3BBb7nRQgvRxrPZb2LoZGC;Host=dumbo.db.elephantsql.com;Port=5432;Database=hrcbomrh";
+            string Sql = "SELECT fulde_navn AS FuldeNavn FROM Bruger";
 
-            var Sql = "SELECT fulde_navn AS FuldeNavn FROM Bruger"; 
-            
-            var brugere = new List<Bruger>();
+            List<Bruger> brugere = new List<Bruger>();
 
-            using (var connection = new NpgsqlConnection(ConnString))
+            using (new NpgsqlConnection(ConnString))
             {
-                    brugere = connection.Query<Bruger>(Sql).ToList();
+                brugere = db.Query<Bruger>(Sql).AsList();
             }
-
             return brugere;
        }
     }

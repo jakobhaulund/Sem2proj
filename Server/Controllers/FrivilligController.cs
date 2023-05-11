@@ -6,6 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Server.Repositories;
 using Microsoft.AspNetCore.Cors;
 using Miljøfestivalen.Shared;
+using System.Diagnostics;
 
 namespace Server.Controllers
 {
@@ -23,9 +24,9 @@ namespace Server.Controllers
 
         [HttpGet]
         [EnableCors("policy")]
-        public IEnumerable<Bruger> Get()
+        public IEnumerable<Bruger> GetBrugere()
         {
-            Console.WriteLine("get ");
+            Debug.WriteLine("get ");
             return FrivilligRepo.GetBrugere();
         }
     }
