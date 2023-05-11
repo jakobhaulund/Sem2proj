@@ -1,22 +1,29 @@
 @page "/brugere"
 @using Miljøfestivalen.Shared
-@inject HttpClient Http;
+@using System.Net.Http.Json
+@inject HttpClient Http
 
-<PageTitle>Bruger test</PageTitle>
-<h1>Hey</h1>
+<h1>Brugere List</h1>
+
+@if (Brugere == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var bruger in Brugere)
+        {
+            <li>@bruger.Brugernavn</li>
+        }
+    </ul>
+}
 
 @code {
-
-    private Bruger[] BrugerListe = new Bruger[];
+    private List<Bruger> Brugere;
 
     protected override async Task OnInitializedAsync()
     {
-        BrugerListe = await Http.GetFromJsonAsync<Bruger[]>("https://localhost:7195/api/brugere");
-        foreach(var bruger in BrugerListe)
-        {
-            Console.WriteLine(bruger.Brugernavn);
-        }
+        Brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
     }
-
 }
-
