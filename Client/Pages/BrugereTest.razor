@@ -5,25 +5,25 @@
 
 <h1>Brugere List</h1>
 
-@if (Brugere == null)
+@if (brugere == null)
 {
-    <p><em>Loadingdd...</em></p>
+    <p><em>Loading...</em></p>
 }
 else
 {
     <ul>
-        @foreach (var bruger in Brugere)
+        @foreach (var bruger in brugere)
         {
-            <li>@bruger.Brugernavn</li>
+            <li>@bruger.FuldeNavn</li>
         }
     </ul>
 }
 
 @code {
-    private List<Bruger> Brugere;
+    private List<Bruger> brugere;
 
     protected override async Task OnInitializedAsync()
     {
-        Brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
+        brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
     }
 }

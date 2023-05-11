@@ -12,8 +12,8 @@ namespace Server.Repositories
        {
             var ConnString = "UserID=hrcbomrh;Password=czku8YaHYA3BBb7nRQgvRxrPZb2LoZGC;Host=dumbo.db.elephantsql.com;Port=5432;Database=hrcbomrh;";
 
-            var Sql = "SELECT * FROM bruger";
-
+            var Sql = "SELECT fulde_navn AS FuldeNavn FROM Bruger"; 
+            
             var brugere = new List<Bruger>();
 
             using (var connection = new NpgsqlConnection(ConnString))
