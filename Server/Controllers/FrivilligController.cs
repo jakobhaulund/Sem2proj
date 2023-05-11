@@ -24,7 +24,7 @@ namespace Server.Controllers
 
         [HttpGet]
         [EnableCors("policy")]
-        public IEnumerable<Bruger> GetBrugere()
+        public IEnumerable<Bruger> Get()
         {
             Debug.WriteLine("get ");
             return FrivilligRepo.GetBrugere();

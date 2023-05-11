@@ -17,7 +17,7 @@ namespace Server.Repositories
 
             List<Bruger> brugere = new List<Bruger>();
 
-            using (new NpgsqlConnection(ConnString))
+            using (IDbConnection db = new NpgsqlConnection(ConnString))
             {
                 brugere = db.Query<Bruger>(Sql).AsList();
             }
