@@ -1,0 +1,29 @@
+@page "/brugere"
+@using Miljøfestivalen.Shared
+@using System.Net.Http.Json
+@inject HttpClient Http
+
+<h1>Brugere List</h1>
+
+@if (Brugere == null)
+{
+    <p><em>Loading...</em></p>
+}
+else
+{
+    <ul>
+        @foreach (var bruger in Brugere)
+        {
+            <li>@bruger.Brugernavn</li>
+        }
+    </ul>
+}
+
+@code {
+    private List<Bruger> Brugere;
+
+    protected override async Task OnInitializedAsync()
+    {
+        Brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
+    }
+}

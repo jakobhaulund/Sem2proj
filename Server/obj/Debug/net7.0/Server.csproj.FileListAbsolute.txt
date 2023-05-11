@@ -45,6 +45,7 @@
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/Server.pdb
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/Server.genruntimeconfig.cache
 /Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/obj/Debug/net7.0/ref/Server.dll
+<<<<<<< HEAD
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
@@ -95,3 +96,8 @@ C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Ser
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.genruntimeconfig.cache
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\ref\Server.dll
 >>>>>>> Stashed changes
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/bin/Debug/net7.0/Dapper.dll
+/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Server/bin/Debug/net7.0/Npgsql.dll
+>>>>>>> 33f27c4806ba088097b96a2efcb86c731f964a38
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Dapper.dll
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Npgsql.dll

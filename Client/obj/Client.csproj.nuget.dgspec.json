@@ -56,14 +56,6 @@
               "suppressParent": "All",
               "target": "Package",
               "version": "[7.0.5, )"
-            },
-            "MongoDB.Bson": {
-              "target": "Package",
-              "version": "[2.19.1, )"
-            },
-            "MongoDB.Driver": {
-              "target": "Package",
-              "version": "[2.19.1, )"
             }
           },
           "imports": [
