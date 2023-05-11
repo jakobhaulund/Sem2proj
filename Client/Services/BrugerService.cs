@@ -9,9 +9,14 @@ namespace Client.Services
     public class BrugerService : IBrugerService
     {
         private readonly HttpClient HttpClient;
+
+        public BrugerService(HttpClient HttpClient)
+        {
+            this.HttpClient = HttpClient;
+        }
         public Task<Bruger[]?> HentAlleBrugere() 
         {
-            var Resultat = HttpClient.GetFromJsonAsync<Bruger[]>("api/brugere");
+            var Resultat = HttpClient.GetFromJsonAsync<Bruger[]>("api/brugere/hentallebrugere");
             return Resultat;
         }
     }

@@ -7,9 +7,9 @@ namespace Server.Models
 	public class dBContext
 	{
 		public NpgsqlConnection Connection { get; }
-		public dBContext(IConfiguration _configuration)
+		public dBContext()
 		{
-			string connString = _configuration.GetConnectionString("Azure2");
+			string connString = "User ID=hrcbomrh;Password=czku8YaHYA3BBb7nRQgvRxrPZb2LoZGC;Host=dumbo.db.elephantsql.com;Port=5432;Database=hrcbomrh;";
 			this.Connection = new NpgsqlConnection(connString);
 		}
 	}

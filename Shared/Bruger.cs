@@ -8,6 +8,9 @@ namespace Miljøfestivalen.Shared
 {
 	public class Bruger
 	{
+        public Bruger() 
+        {
+        }
         public string Rolle { get; set; }
         public string FuldeNavn { get; set; }
         public string Email { get; set; }

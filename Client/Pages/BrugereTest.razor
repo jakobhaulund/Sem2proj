@@ -29,7 +29,6 @@ else
 
     protected override async Task OnInitializedAsync()
     {
-
         BrugerListe = (await Service.HentAlleBrugere()).ToList();
     }
 }

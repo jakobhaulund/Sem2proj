@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "K+EfWDNHgofsCrpGyQ6h9i+ZKxS2hsO9Z7vxwKNZmG8=",
+  "Hash": "1xyEOBpIfXmJAZ4nOjf29Uj+utSY7qCgYNa/Lvim37M=",
   "Source": "Client",
   "BasePath": "/",
   "Mode": "Root",
@@ -422,7 +422,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
@@ -439,7 +439,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\6.0.1\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.dependencyinjection\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.DependencyInjection.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileProviders.Abstractions.dll",
@@ -493,6 +493,23 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.filesystemglobbing\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "BlazorWebAssemblyResource",
+      "AssetTraitValue": "runtime",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.http\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Http.dll"
+    },
+    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -507,7 +524,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\6.0.3\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
@@ -524,7 +541,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.logging\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Logging.dll"
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.logging\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
@@ -541,7 +558,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.options\\6.0.0\\lib\\netstandard2.1\\Microsoft.Extensions.Options.dll"
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.options\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
@@ -558,7 +575,7 @@
       "AssetTraitValue": "runtime",
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.primitives\\6.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
+      "OriginalItemSpec": "C:\\Users\\jakob\\.nuget\\packages\\microsoft.extensions.primitives\\7.0.0\\lib\\net6.0\\Microsoft.Extensions.Primitives.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.JSInterop.dll",
@@ -3638,6 +3655,23 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Resources.Writer.dll"
     },
     {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\1sqrC6xR.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
+    },
+    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\2AKkYSGy.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -3876,23 +3910,6 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Private.Runtime.InteropServices.JavaScript.dll"
     },
     {
-      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\5BtCnDPF.gz",
-      "SourceId": "Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Primitives.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Primitives.dll"
-    },
-    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\5o4OMa+m.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -3942,6 +3959,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Diagnostics.Debug.dll"
+    },
+    {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\7pllycaM.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\8B3u3XlF.gz",
@@ -4522,6 +4556,23 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Threading.Tasks.Dataflow.dll"
     },
     {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\FeCUn+JC.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
+    },
+    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\FNYxHezW.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -4692,23 +4743,6 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Emit.ILGeneration.dll"
     },
     {
-      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\H65CWiOK.gz",
-      "SourceId": "Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
-    },
-    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\H7zoItl0.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -4792,23 +4826,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Linq.Queryable.dll"
-    },
-    {
-      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\hoOJa51D.gz",
-      "SourceId": "Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\HPG+DXZG.gz",
@@ -5202,6 +5219,23 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.FileSystemGlobbing.dll"
     },
     {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\KEGIgzVf.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.dll"
+    },
+    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\KJNYtxO4.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -5321,23 +5355,6 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Data.dll"
     },
     {
-      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\LF6ZUImH.gz",
-      "SourceId": "Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
-    },
-    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\ltxdt81q.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -5404,23 +5421,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.ComponentModel.Annotations.dll"
-    },
-    {
-      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\M9A5gCIW.gz",
-      "SourceId": "Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Options.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Options.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\MD9wvHbA.gz",
@@ -5744,6 +5744,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Security.Cryptography.Algorithms.dll"
+    },
+    {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\oTHVd7xr.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Http.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Http.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\p+Obt3ex.gz",
@@ -6324,6 +6341,23 @@
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.Primitives.dll"
     },
     {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\ve0nR1Yq.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
+    },
+    {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\vhFGsizh.gz",
       "SourceId": "Client",
       "SourceType": "Computed",
@@ -6390,23 +6424,6 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Reflection.dll"
-    },
-    {
-      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\vXzwLu5e.gz",
-      "SourceId": "Client",
-      "SourceType": "Computed",
-      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
-      "BasePath": "/",
-      "RelativePath": "_framework/Microsoft.Extensions.Logging.Abstractions.dll.gz",
-      "AssetKind": "Build",
-      "AssetMode": "All",
-      "AssetRole": "Alternative",
-      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll",
-      "AssetTraitName": "Content-Encoding",
-      "AssetTraitValue": "gzip",
-      "CopyToOutputDirectory": "PreserveNewest",
-      "CopyToPublishDirectory": "Never",
-      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.Logging.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\W1JG40fp.gz",
@@ -6730,6 +6747,23 @@
       "CopyToOutputDirectory": "PreserveNewest",
       "CopyToPublishDirectory": "Never",
       "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\System.Collections.NonGeneric.dll"
+    },
+    {
+      "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\y9WlzDYP.gz",
+      "SourceId": "Client",
+      "SourceType": "Computed",
+      "ContentRoot": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\",
+      "BasePath": "/",
+      "RelativePath": "_framework/Microsoft.Extensions.DependencyInjection.Abstractions.dll.gz",
+      "AssetKind": "Build",
+      "AssetMode": "All",
+      "AssetRole": "Alternative",
+      "RelatedAsset": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+      "AssetTraitName": "Content-Encoding",
+      "AssetTraitValue": "gzip",
+      "CopyToOutputDirectory": "PreserveNewest",
+      "CopyToPublishDirectory": "Never",
+      "OriginalItemSpec": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\bin\\Debug\\net6.0\\wwwroot\\_framework\\Microsoft.Extensions.DependencyInjection.Abstractions.dll"
     },
     {
       "Identity": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\Debug\\net6.0\\build-gz\\yAzfQ8Uj.gz",

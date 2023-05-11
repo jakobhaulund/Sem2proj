@@ -15,11 +15,11 @@ namespace Server.Controllers
     public class FrivilligController : ControllerBase
     {
 
-        private IFrivilligRepository FrivilligRepo;
+        private readonly IFrivilligRepository FrivilligRepo;
 
         public FrivilligController(IFrivilligRepository Repo)
         {
-            FrivilligRepo = Repo;
+                FrivilligRepo = Repo;
         }
 
         [HttpGet("hentallebrugere")]

@@ -1,6 +1,7 @@
 ﻿using Microsoft.AspNetCore.Components.Web;
 using Microsoft.AspNetCore.Components.WebAssembly.Hosting;
 using Client;
+using Client.Services;
 
 namespace Client;
 
@@ -14,8 +15,11 @@ public class Program
 
         builder.Services.AddScoped(sp => new HttpClient { BaseAddress = new Uri(builder.HostEnvironment.BaseAddress) });
 
+        builder.Services.AddHttpClient<IBrugerService, BrugerService>(client =>
+        {
+            client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress);
+        });
         await builder.Build().RunAsync();
-
     }
 }
 
