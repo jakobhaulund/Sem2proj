@@ -1,35 +1,33 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\Client.csproj": {}
+    "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/Client.csproj": {}
   },
   "projects": {
-    "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\Client.csproj": {
+    "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/Client.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\Client.csproj",
+        "projectUniqueName": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/Client.csproj",
         "projectName": "Client",
-        "projectPath": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\Client.csproj",
-        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Client\\obj\\",
+        "projectPath": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/Client.csproj",
+        "packagesPath": "/Users/jakobhaulund/.nuget/packages/",
+        "outputPath": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jakobhaulund/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Shared\\Shared.csproj": {
-                "projectPath": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Shared\\Shared.csproj"
+              "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/Shared.csproj": {
+                "projectPath": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/Shared.csproj"
               }
             }
           }
@@ -59,7 +57,7 @@
             },
             "Microsoft.Extensions.Http": {
               "target": "Package",
-              "version": "[7.0.0, )"
+              "version": "[6.0.0, )"
             }
           },
           "imports": [
@@ -76,7 +74,7 @@
           "downloadDependencies": [
             {
               "name": "Microsoft.NETCore.App.Runtime.Mono.browser-wasm",
-              "version": "[6.0.13, 6.0.13]"
+              "version": "[6.0.16, 6.0.16]"
             }
           ],
           "frameworkReferences": {
@@ -84,7 +82,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       },
       "runtimes": {
@@ -93,24 +91,22 @@
         }
       }
     },
-    "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Shared\\Shared.csproj": {
+    "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Shared\\Shared.csproj",
+        "projectUniqueName": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/Shared.csproj",
         "projectName": "Shared",
-        "projectPath": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Shared\\Shared.csproj",
-        "packagesPath": "C:\\Users\\jakob\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\jakob\\OneDrive\\Skrivebord\\Sem2Proj\\Sem2proj\\Shared\\obj\\",
+        "projectPath": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/Shared.csproj",
+        "packagesPath": "/Users/jakobhaulund/.nuget/packages/",
+        "outputPath": "/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Shared/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\jakob\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+          "/Users/jakobhaulund/.nuget/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "net6.0"
         ],
         "sources": {
-          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
           "https://api.nuget.org/v3/index.json": {}
         },
         "frameworks": {
@@ -144,7 +140,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\7.0.102\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/7.0.203/RuntimeIdentifierGraph.json"
         }
       }
     }

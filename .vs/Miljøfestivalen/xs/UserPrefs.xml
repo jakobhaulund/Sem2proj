@@ -1,24 +1,13 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{788F2416-2CB5-4F27-AD99-A3934A32C926}" ItemName="Client" ConfigurationId="Default" />
-        <StartupItem ItemId="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}" ItemName="Server" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
   <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/Koordinator.cs">
+  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
     <Files>
       <File FileName="Server/Program.cs" />
       <File FileName="Server/appsettings.json" />
       <File FileName="Server/WeatherForecast.cs" />
       <File FileName="Shared/Bruger.cs" />
       <File FileName="Shared/Vagt.cs" />
-      <File FileName="Server/Repositories/FrivilligRepository.cs" />
+      <File FileName="Server/Repositories/FrivilligRepository.cs" Line="15" Column="60" />
       <File FileName="Server/Repositories/IFrivilligRepository.cs" />
       <File FileName="Server/Repositories/KoordinatorRepository.cs" />
       <File FileName="Server/Repositories/IKoordinatorRepository.cs" />
@@ -30,16 +19,24 @@
       <File FileName="Server/Controllers/FrivilligController.cs" />
       <File FileName="Server/Controllers/KoordinatorController.cs" />
       <File FileName="Server/Controllers/VagtController.cs" />
-      <File FileName="Shared/Koordinator.cs" Line="1" Column="1" />
-      <File FileName="Client/Pages/VagterTest.razor" />
+      <File FileName="Shared/Koordinator.cs" />
       <File FileName="Shared/Booking.cs" />
+      <File FileName="Client/Client/Program.cs" />
+      <File FileName="Client/Pages/Counter.razor" />
+      <File FileName="Shared/Frivillig.cs" />
+      <File FileName="Client/Pages/Index.razor" />
+      <File FileName="Client/Pages/FetchData.razor" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="266" Column="5" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
         <State name="__root__">
           <Node name="Miljøfestivalen" expanded="True">
             <Node name="Client" expanded="True">
-              <Node name="Dependencies" expanded="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="PackageDependencies" expanded="True" />
+                <Node name="ProjectDependencies" selected="True" />
+              </Node>
               <Node name="Client" expanded="True" />
               <Node name="Pages" expanded="True" />
             </Node>
@@ -48,17 +45,29 @@
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
-              <Node name="Repositories" expanded="True" />
             </Node>
             <Node name="Shared" expanded="True">
-              <Node name="Koordinator.cs" selected="True" />
+              <Node name="Dependencies" expanded="True">
+                <Node name="FrameworkReferences" expanded="True" />
+              </Node>
             </Node>
           </Node>
         </State>
       </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{788F2416-2CB5-4F27-AD99-A3934A32C926}" ItemName="Client" ConfigurationId="Default" />
+        <StartupItem ItemId="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}" ItemName="Server" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
 </Properties>
