@@ -1,3 +1,10 @@
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\appsettings.Development.json
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\appsettings.json
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Server.exe
@@ -13,13 +20,6 @@ C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Swa
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Swashbuckle.AspNetCore.SwaggerUI.dll
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Shared.dll
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\bin\Debug\net7.0\Shared.pdb
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.AssemblyReference.cache
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfoInputs.cache
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.AssemblyInfo.cs
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.csproj.CoreCompileInputs.cache
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cs
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\Server.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\staticwebassets\msbuild.Server.Microsoft.AspNetCore.StaticWebAssets.props
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\staticwebassets\msbuild.build.Server.props
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Server\obj\Debug\net7.0\staticwebassets\msbuild.buildMultiTargeting.Server.props

@@ -1,11 +1,11 @@
 ﻿using System;
 using Miljøfestivalen.Shared;
 
-namespace Server.Repositories
+namespace Server.Models
 {
 	public interface IFrivilligRepository
 	{
-		IEnumerable<Bruger> GetBrugere();
+		Task<IEnumerable<Bruger>> HentAlleBrugere();
 	}
 }
 

@@ -1,4 +1,13 @@
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.AssemblyInfo.cs
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.webassembly.js
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\Client.dll
+C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\Client.pdb
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.6.0.13.9dyxbxyvo9.js
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.timezones.blat
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\dotnet.wasm
@@ -197,9 +206,6 @@ C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\www
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.dll
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\System.Xml.XPath.XDocument.dll
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\WindowsBase.dll
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\blazor.boot.json
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\Client.dll
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\Client.pdb
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\System.Security.Claims.dll.gz
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\System.Web.HttpUtility.dll.gz
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\wwwroot\_framework\System.Reflection.Emit.Lightweight.dll.gz
@@ -604,12 +610,6 @@ C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\icu
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\icudt_no_CJK.dat
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\Shared.dll
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\bin\Debug\net6.0\Shared.pdb
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.csproj.AssemblyReference.cache
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.GeneratedMSBuildEditorConfig.editorconfig
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.AssemblyInfoInputs.cache
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.AssemblyInfo.cs
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.csproj.CoreCompileInputs.cache
-C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\Client.MvcApplicationPartsAssemblyInfo.cache
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\build-gz\RtHvvEdL.gz
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\build-gz\k5MMFFma.gz
 C:\Users\jakob\OneDrive\Skrivebord\Sem2Proj\Sem2proj\Client\obj\Debug\net6.0\build-gz\HPG+DXZG.gz

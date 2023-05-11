@@ -1,18 +1,20 @@
 @page "/brugere"
 @using Miljøfestivalen.Shared
 @using System.Net.Http.Json
+@using Client.Services
+@using System.Globalization
 @inject HttpClient Http
 
 <h1>Brugere List</h1>
 
-@if (brugere == null)
+@if (BrugerListe == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
     <ul>
-        @foreach (var bruger in brugere)
+        @foreach (var bruger in BrugerListe)
         {
             <li>@bruger.FuldeNavn</li>
         }
@@ -20,17 +22,14 @@ else
 }
 
 @code {
-    private List<Bruger> brugere;
+    public List<Bruger> BrugerListe = new List<Bruger>();
+
+    [Inject]
+    public IBrugerService Service { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        try
-        {
-            brugere = await Http.GetFromJsonAsync<List<Bruger>>("api/brugere");
-        }
-        catch(Exception ex)
-        {
-            Console.WriteLine(ex.Message);
-        }
+
+        BrugerListe = (await Service.HentAlleBrugere()).ToList();
     }
 }

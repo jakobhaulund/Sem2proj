@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.AspNetCore.Mvc;
-using Server.Repositories;
+using Server.Models;
 using Microsoft.AspNetCore.Cors;
 using Miljøfestivalen.Shared;
 using System.Diagnostics;
@@ -12,22 +12,20 @@ namespace Server.Controllers
 {
     [ApiController]
     [Route("api/brugere")]
-    public class ShelterListController : ControllerBase
+    public class FrivilligController : ControllerBase
     {
 
         private IFrivilligRepository FrivilligRepo;
 
-        public ShelterListController(IFrivilligRepository repo)
+        public FrivilligController(IFrivilligRepository Repo)
         {
-            FrivilligRepo = repo;
+            FrivilligRepo = Repo;
         }
 
-        [HttpGet]
-        [EnableCors("policy")]
-        public IEnumerable<Bruger> Get()
+        [HttpGet("hentallebrugere")]
+        public async Task<IEnumerable<Bruger>> HentAlleBrugere()
         {
-            Debug.WriteLine("get ");
-            return FrivilligRepo.GetBrugere();
+            return await FrivilligRepo.HentAlleBrugere();
         }
     }
 }

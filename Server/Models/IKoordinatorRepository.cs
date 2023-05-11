@@ -1,5 +1,5 @@
 ﻿using System;
-namespace Server.Repositories
+namespace Server.Models
 {
 	public interface IKoordinatorRepository
 	{

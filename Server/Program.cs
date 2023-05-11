@@ -1,4 +1,4 @@
-using Server.Repositories;
+using Server.Models;
 namespace Server;
 
 public class Program
@@ -13,7 +13,8 @@ public class Program
         // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
-        builder.Services.AddSingleton<IFrivilligRepository, FrivilligRepository>();
+        builder.Services.AddScoped<dBContext>();
+        builder.Services.AddScoped<IFrivilligRepository, FrivilligRepository>();
 
         builder.Services.AddCors(options =>
         {
