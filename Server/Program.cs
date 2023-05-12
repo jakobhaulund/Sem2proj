@@ -14,10 +14,9 @@ public class Program
         builder.Services.AddEndpointsApiExplorer();
         builder.Services.AddSwaggerGen();
         builder.Services.AddSingleton<dBContext>();
-        builder.Services.AddSingleton<IFrivilligRepository, FrivilligRepository>();
+        builder.Services.AddSingleton<IBrugerRepository, BrugerRepository>();
         builder.Services.AddSingleton<IVagtRepository, VagtRepository>();
         builder.Services.AddSingleton<IBookingRepository, BookingRepository>();
-        builder.Services.AddSingleton<IKoordinatorRepository, KoordinatorRepository>();
 
         builder.Services.AddCors(options =>
         {

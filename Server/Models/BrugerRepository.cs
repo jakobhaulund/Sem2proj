@@ -10,18 +10,18 @@ using Microsoft.Extensions.DependencyInjection;
 
 namespace Server.Models
 {
-	public class FrivilligRepository : IFrivilligRepository
+	public class BrugerRepository : IBrugerRepository
 	{
 		private string Sql = "";
 
 		private dBContext Context;
 
-		public FrivilligRepository(dBContext context)
+		public BrugerRepository(dBContext context)
         {
             this.Context = context;
         }
 
-		public async Task<IEnumerable<Bruger>> HentAlleBrugere()
+		public async Task<IEnumerable<Bruger>> HentAlleFrivillige()
 		{
 			Sql = $"SELECT * FROM bruger WHERE rolle = 'frivillig'";
 

@@ -23,6 +23,10 @@ public class Program
         {
             client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress);
         });
+        builder.Services.AddHttpClient<IBookingService, BookingService>(client =>
+        {
+            client.BaseAddress = new Uri(builder.HostEnvironment.BaseAddress);
+        });
         await builder.Build().RunAsync();
     }
 }

@@ -12,21 +12,21 @@ namespace Server.Controllers
 {
     [ApiController]
     [Route("api/brugere")]
-    public class FrivilligController : ControllerBase
+    public class BrugerController : ControllerBase
     {
 
-        private IFrivilligRepository FrivilligRepo;
+        private IBrugerRepository FrivilligRepo;
 
-        public FrivilligController(IFrivilligRepository FriRepo)
+        public BrugerController(IBrugerRepository FriRepo)
         {
                 FrivilligRepo = FriRepo;
         }
 
         [EnableCors("policy")]
-        [HttpGet("hentallebrugere")]
-        public async Task<IEnumerable<Bruger>> HentAlleBrugere()
+        [HttpGet("hentallefrivillige")]
+        public async Task<IEnumerable<Bruger>> HentAlleFrivillige()
         {
-            return await FrivilligRepo.HentAlleBrugere();
+            return await FrivilligRepo.HentAlleFrivillige();
         }
     }
 }

@@ -14,7 +14,6 @@ namespace Miljøfestivalen.Shared
 		public DateTime slut_tid { get; set; }
 		public string beskrivelse { get; set; }
 		public string priotering { get; set; }
-		public Boolean er_bemandet { get; set; }
 		public int antal_personer { get; set; }
 	}
 }

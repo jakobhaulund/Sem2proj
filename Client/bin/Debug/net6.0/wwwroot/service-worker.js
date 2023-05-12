@@ -4,4 +4,4 @@
 self.addEventListener('fetch', () => { });
 
 
-/* Manifest version: PUBLxLbE */
+/* Manifest version: +NS/Af9n */

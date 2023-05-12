@@ -1,36 +1,36 @@
-@page "/brugere"
+@page "/frivillige"
 @using Miljøfestivalen.Shared
 @using System.Net.Http.Json
 @using Client.Services
 @using System.Globalization
 @inject HttpClient Http
 
-<h1>Brugere List</h1>
+<h1>Liste over frivillige</h1>
 
-@if (BrugerListe == null)
+@if (FrivilligListe == null)
 {
     <p><em>Loading...</em></p>
 }
 else
 {
     <table>
-        @foreach (var bruger in BrugerListe)
+        @foreach (var frivillig in FrivilligListe)
         {
-            <li>@bruger.fulde_navn</li>
-            <li>@bruger.cpr_nummer</li>
-            <li>@bruger.rolle</li>
+            <li>@frivillig.fulde_navn</li>
+            <li>@frivillig.cpr_nummer</li>
+            <li>@frivillig.rolle</li>
         }
     </table>
 }
 
 @code {
-    public List<Bruger> BrugerListe = new List<Bruger>();
+    public List<Bruger> FrivilligListe = new List<Bruger>();
 
     [Inject]
     public IBrugerService Service { get; set; }
 
     protected override async Task OnInitializedAsync()
     {
-        BrugerListe = (await Service.HentAlleBrugere()).ToList();
+        FrivilligListe = (await Service.HentAlleFrivillige()).ToList();
     }
 }

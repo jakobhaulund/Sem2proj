@@ -14,9 +14,9 @@ namespace Client.Services
         {
             this.HttpClient = HttpClient;
         }
-        public Task<Bruger[]> HentAlleBrugere() 
+        public Task<Bruger[]> HentAlleFrivillige() 
         {
-            var Resultat = HttpClient.GetFromJsonAsync<Bruger[]>("https://localhost:7139/api/brugere/hentallebrugere");
+            var Resultat = HttpClient.GetFromJsonAsync<Bruger[]>("https://localhost:7139/api/brugere/hentallefrivillige");
             return Resultat;
         }
     }

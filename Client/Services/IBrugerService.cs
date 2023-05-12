@@ -5,6 +5,6 @@ namespace Client.Services
 {
     public interface IBrugerService 
     {
-        Task<Bruger[]> HentAlleBrugere();
+        Task<Bruger[]> HentAlleFrivillige();
     }
 }
