@@ -1,9 +1,9 @@
 ﻿using System;
 namespace Server.Models
 {
-	public class VagtBookingRepository
+	public class BookingRepository : IBookingRepository
 	{
-		public VagtBookingRepository()
+		public BookingRepository()
 		{
 		}
 	}

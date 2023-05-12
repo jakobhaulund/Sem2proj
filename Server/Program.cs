@@ -15,6 +15,9 @@ public class Program
         builder.Services.AddSwaggerGen();
         builder.Services.AddSingleton<dBContext>();
         builder.Services.AddSingleton<IFrivilligRepository, FrivilligRepository>();
+        builder.Services.AddSingleton<IVagtRepository, VagtRepository>();
+        builder.Services.AddSingleton<IBookingRepository, BookingRepository>();
+        builder.Services.AddSingleton<IKoordinatorRepository, KoordinatorRepository>();
 
         builder.Services.AddCors(options =>
         {

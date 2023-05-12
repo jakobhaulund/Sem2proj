@@ -10,8 +10,8 @@ namespace Miljøfestivalen.Shared
 	{
 		public int vagt_id { get; set; }
 		public string område { get; set; }
-		public TimeOnly start_tid { get; set; }
-		public TimeOnly slut_tid { get; set; }
+		public DateTime start_tid { get; set; }
+		public DateTime slut_tid { get; set; }
 		public string beskrivelse { get; set; }
 		public string priotering { get; set; }
 		public Boolean er_bemandet { get; set; }

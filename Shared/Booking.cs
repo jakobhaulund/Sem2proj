@@ -9,8 +9,9 @@ namespace Miljøfestivalen.Shared
 	public class Booking
 	{
 		public int booking_id { get; set; }
-		public Vagt vagt_id { get; set;}
-		public Frivillig frivillig { get; set; }
+		public Vagt vagt { get; set;}
+		public Bruger frivillig { get; set; }
+		public Bruger koordinator { get; set; }
 	}
 }
 

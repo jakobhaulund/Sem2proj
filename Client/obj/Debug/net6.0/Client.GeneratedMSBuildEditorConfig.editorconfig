@@ -24,6 +24,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = UGFnZXMvQnJ1Z2VyZVRlc3QucmF6b3I=
 build_metadata.AdditionalFiles.CssScope = 
 
+[/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/Pages/VagterTest.razor]
+build_metadata.AdditionalFiles.TargetPath = UGFnZXMvVmFndGVyVGVzdC5yYXpvcg==
+build_metadata.AdditionalFiles.CssScope = 
+
 [/Users/jakobhaulund/Desktop/Skole/Miljøfestivalen/Client/Shared/SurveyPrompt.razor]
 build_metadata.AdditionalFiles.TargetPath = U2hhcmVkL1N1cnZleVByb21wdC5yYXpvcg==
 build_metadata.AdditionalFiles.CssScope = 

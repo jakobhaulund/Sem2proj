@@ -12,7 +12,7 @@ namespace Server.Models
 {
 	public class FrivilligRepository : IFrivilligRepository
 	{
-		private string sql = "";
+		private string Sql = "";
 
 		private dBContext Context;
 
@@ -23,9 +23,9 @@ namespace Server.Models
 
 		public async Task<IEnumerable<Bruger>> HentAlleBrugere()
 		{
-			sql = $"SELECT * FROM bruger WHERE rolle = 'frivillig'";
+			Sql = $"SELECT * FROM bruger WHERE rolle = 'frivillig'";
 
-			var BrugerListe = await Context.Connection.QueryAsync<Bruger>(sql);
+			var BrugerListe = await Context.Connection.QueryAsync<Bruger>(Sql);
 			return BrugerListe.ToList();
 		}
 	}
