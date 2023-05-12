@@ -3,8 +3,8 @@ using Miljøfestivalen.Shared;
 
 namespace Client.Services
 {
-    public interface IBrugerService
+    public interface IBrugerService 
     {
-        Task<Bruger[]?> HentAlleBrugere();
+        Task<Bruger[]> HentAlleBrugere();
     }
 }

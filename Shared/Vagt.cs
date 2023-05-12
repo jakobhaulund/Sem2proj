@@ -8,14 +8,14 @@ namespace Miljøfestivalen.Shared
 {
 	public class Vagt
 	{
-		public int VagtId { get; set; }
-		public string Område { get; set; }
-		public DateOnly Dato { get; set; }
-		public TimeOnly StartTid { get; set; }
-		public TimeOnly SlutTid { get; set; }
-		public string Beskrivelse { get; set; }
-		public string Prioritering { get; set; }
-		public Boolean ErBemandet { get; set; }
+		public int vagt_id { get; set; }
+		public string område { get; set; }
+		public TimeOnly start_tid { get; set; }
+		public TimeOnly slut_tid { get; set; }
+		public string beskrivelse { get; set; }
+		public string priotering { get; set; }
+		public Boolean er_bemandet { get; set; }
+		public int antal_personer { get; set; }
 	}
 }
 

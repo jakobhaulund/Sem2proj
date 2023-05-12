@@ -13,12 +13,14 @@
 }
 else
 {
-    <ul>
+    <table>
         @foreach (var bruger in BrugerListe)
         {
-            <li>@bruger.FuldeNavn</li>
+            <li>@bruger.fulde_navn</li>
+            <li>@bruger.cpr_nummer</li>
+            <li>@bruger.rolle</li>
         }
-    </ul>
+    </table>
 }
 
 @code {

@@ -15,13 +15,14 @@ namespace Server.Controllers
     public class FrivilligController : ControllerBase
     {
 
-        private readonly IFrivilligRepository FrivilligRepo;
+        private IFrivilligRepository FrivilligRepo;
 
-        public FrivilligController(IFrivilligRepository Repo)
+        public FrivilligController(IFrivilligRepository FriRepo)
         {
-                FrivilligRepo = Repo;
+                FrivilligRepo = FriRepo;
         }
 
+        [EnableCors("policy")]
         [HttpGet("hentallebrugere")]
         public async Task<IEnumerable<Bruger>> HentAlleBrugere()
         {

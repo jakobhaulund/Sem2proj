@@ -11,16 +11,17 @@ namespace Miljøfestivalen.Shared
         public Bruger() 
         {
         }
-        public string Rolle { get; set; }
-        public string FuldeNavn { get; set; }
-        public string Email { get; set; }
-        public int TelefonNummer { get; set; }
-        public DateOnly Fødselsdag { get; set; }
-        public int CPRNummer { get; set; }
-        public string Brugernavn { get; set; }
-        public string Password { get; set; }
-        public bool ErAktiv { get; set; }
-        public bool ErBlacklistet { get; set; }
+        public int bruger_id { get; set; }
+        public string rolle { get; set; }
+        public string fulde_navn { get; set; }
+        public string email { get; set; }
+        public int telefon_nummer { get; set; }
+        public DateTime fødselsdag { get; set; }
+        public string cpr_nummer { get; set; }
+        public string brugernavn { get; set; }
+        public string password { get; set; }
+        public bool er_aktiv { get; set; }
+        public bool er_blacklistet { get; set; }
     }
 }
 

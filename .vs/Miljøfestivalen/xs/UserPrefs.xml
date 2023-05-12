@@ -1,22 +1,15 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
   <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="../../../../../usr/local/share/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Server/Models/FrivilligRepository.cs">
     <Files>
       <File FileName="Server/Program.cs" />
       <File FileName="Server/appsettings.json" />
       <File FileName="Server/WeatherForecast.cs" />
       <File FileName="Shared/Bruger.cs" />
       <File FileName="Shared/Vagt.cs" />
-      <File FileName="Server/Repositories/FrivilligRepository.cs" Line="15" Column="60" />
-      <File FileName="Server/Repositories/IFrivilligRepository.cs" />
-      <File FileName="Server/Repositories/KoordinatorRepository.cs" />
-      <File FileName="Server/Repositories/IKoordinatorRepository.cs" />
-      <File FileName="Server/Repositories/VagtRepository.cs" />
-      <File FileName="Server/Repositories/IVagtRepository.cs" />
-      <File FileName="Server/Repositories/IBookingRepository.cs" />
       <File FileName="Server/Controllers/WeatherForecastController.cs" />
       <File FileName="Server/Controllers/BookingController.cs" />
-      <File FileName="Server/Controllers/FrivilligController.cs" />
+      <File FileName="Server/Controllers/FrivilligController.cs" Line="1" Column="1" />
       <File FileName="Server/Controllers/KoordinatorController.cs" />
       <File FileName="Server/Controllers/VagtController.cs" />
       <File FileName="Shared/Koordinator.cs" />
@@ -27,6 +20,8 @@
       <File FileName="Client/Pages/Index.razor" />
       <File FileName="Client/Pages/FetchData.razor" />
       <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="266" Column="5" />
+      <File FileName="Client/Services/BrugerService.cs" Line="1" Column="1" />
+      <File FileName="Server/Models/FrivilligRepository.cs" Line="26" Column="18" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -35,16 +30,17 @@
             <Node name="Client" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
-                <Node name="ProjectDependencies" selected="True" />
               </Node>
               <Node name="Client" expanded="True" />
               <Node name="Pages" expanded="True" />
+              <Node name="Services" expanded="True" />
             </Node>
             <Node name="Server" expanded="True">
               <Node name="Dependencies" expanded="True">
                 <Node name="PackageDependencies" expanded="True" />
               </Node>
               <Node name="Controllers" expanded="True" />
+              <Node name="Models" expanded="True" />
             </Node>
             <Node name="Shared" expanded="True">
               <Node name="Dependencies" expanded="True">
