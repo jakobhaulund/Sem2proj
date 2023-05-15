@@ -1,27 +1,53 @@
 ﻿<Properties StartupConfiguration="Multiple Projects">
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.ItemProperties.Server PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Server/Models/FrivilligRepository.cs">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MultiItemStartupConfigurations>
+    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
+      <Items>
+        <StartupItem ItemId="{788F2416-2CB5-4F27-AD99-A3934A32C926}" ItemName="Client" ConfigurationId="Default" />
+        <StartupItem ItemId="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}" ItemName="Server" ConfigurationId="Default" />
+      </Items>
+    </MultiItemSolutionRunConfiguration>
+  </MultiItemStartupConfigurations>
+  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Shared/Booking.cs">
     <Files>
-      <File FileName="Server/Program.cs" />
+      <File FileName="Server/Program.cs" Line="22" Column="10" />
       <File FileName="Server/appsettings.json" />
       <File FileName="Server/WeatherForecast.cs" />
-      <File FileName="Shared/Bruger.cs" />
-      <File FileName="Shared/Vagt.cs" />
+      <File FileName="Shared/Bruger.cs" Line="20" Column="40" />
+      <File FileName="Shared/Vagt.cs" Line="16" Column="41" />
       <File FileName="Server/Controllers/WeatherForecastController.cs" />
-      <File FileName="Server/Controllers/BookingController.cs" />
-      <File FileName="Server/Controllers/FrivilligController.cs" Line="1" Column="1" />
-      <File FileName="Server/Controllers/KoordinatorController.cs" />
-      <File FileName="Server/Controllers/VagtController.cs" />
-      <File FileName="Shared/Koordinator.cs" />
-      <File FileName="Shared/Booking.cs" />
-      <File FileName="Client/Client/Program.cs" />
-      <File FileName="Client/Pages/Counter.razor" />
-      <File FileName="Shared/Frivillig.cs" />
-      <File FileName="Client/Pages/Index.razor" />
-      <File FileName="Client/Pages/FetchData.razor" />
-      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" Line="266" Column="5" />
-      <File FileName="Client/Services/BrugerService.cs" Line="1" Column="1" />
-      <File FileName="Server/Models/FrivilligRepository.cs" Line="26" Column="18" />
+      <File FileName="Server/Controllers/BookingController.cs" Line="19" Column="1" />
+      <File FileName="Server/Controllers/FrivilligController.cs" Line="33" Column="1" />
+      <File FileName="Server/Controllers/VagtController.cs" Line="24" Column="1" />
+      <File FileName="Shared/Booking.cs" Line="16" Column="3" />
+      <File FileName="Client/Client/Program.cs" Line="25" Column="12" />
+      <File FileName="../../../../../usr/local/share/dotnet/sdk/7.0.203/Sdks/Microsoft.NET.Sdk/targets/Microsoft.PackageDependencyResolution.targets" />
+      <File FileName="Client/Services/BrugerService.cs" Line="22" Column="1" />
+      <File FileName="Server/Models/FrivilligRepository.cs" Line="30" Column="4" />
+      <File FileName="Server/Models/dBContext.cs" Line="14" Column="4" />
+      <File FileName="Server/Models/IFrivilligRepository.cs" Line="8" Column="3" />
+      <File FileName="Client/Services/IBrugerService.cs" Line="1" Column="1" />
+      <File FileName="Client/Pages/BrugereTest.razor" Line="1" Column="19" />
+      <File FileName="Server/Models/BookingRepository.cs" Line="30" Column="10" />
+      <File FileName="Client/Shared/MainLayout.razor" Line="1" Column="1" />
+      <File FileName="Client/Shared/NavMenu.razor" Line="28" Column="56" />
+      <File FileName="Client/Shared/SurveyPrompt.razor" Line="1" Column="1" />
+      <File FileName="Client/Properties/launchSettings.json" Line="1" Column="1" />
+      <File FileName="Server/Models/VagtRepository.cs" Line="21" Column="36" />
+      <File FileName="Server/Models/IVagtRepository.cs" Line="12" Column="1" />
+      <File FileName="Server/Models/IBookingRepository.cs" Line="12" Column="1" />
+      <File FileName="Client/Services/EmptyClass.cs" Line="22" Column="1" />
+      <File FileName="Client/Services/IVagtService.cs" Line="8" Column="39" />
+      <File FileName="Client/Services/BookingService.cs" Line="12" Column="1" />
+      <File FileName="Client/Services/IBookingService.cs" Line="11" Column="1" />
+      <File FileName="Client/Pages/VagterTest.razor" Line="20" Column="26" />
+      <File FileName="Client/Pages/BookingerTest.razor" Line="21" Column="39" />
     </Files>
     <Pads>
       <Pad Id="ProjectPad">
@@ -29,11 +55,15 @@
           <Node name="Miljøfestivalen" expanded="True">
             <Node name="Client" expanded="True">
               <Node name="Dependencies" expanded="True">
-                <Node name="PackageDependencies" expanded="True" />
+                <Node name="PackageDependencies" expanded="True">
+                  <Node name="Microsoft.Extensions.Http" expanded="True" />
+                </Node>
               </Node>
               <Node name="Client" expanded="True" />
               <Node name="Pages" expanded="True" />
+              <Node name="Properties" expanded="True" />
               <Node name="Services" expanded="True" />
+              <Node name="Shared" expanded="True" />
             </Node>
             <Node name="Server" expanded="True">
               <Node name="Dependencies" expanded="True">
@@ -50,20 +80,9 @@
           </Node>
         </State>
       </Pad>
+      <Pad Id="MonoDevelop.Debugger.WatchPad">
+        <State />
+      </Pad>
     </Pads>
   </MonoDevelop.Ide.Workbench>
-  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
-  <MonoDevelop.Ide.ItemProperties.Client PreferredExecutionTarget="/Applications/Google Chrome.app" />
-  <MonoDevelop.Ide.DebuggingService.Breakpoints>
-    <BreakpointStore />
-  </MonoDevelop.Ide.DebuggingService.Breakpoints>
-  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MultiItemStartupConfigurations>
-    <MultiItemSolutionRunConfiguration Id="Multiple Projects" Name="Multiple Projects">
-      <Items>
-        <StartupItem ItemId="{788F2416-2CB5-4F27-AD99-A3934A32C926}" ItemName="Client" ConfigurationId="Default" />
-        <StartupItem ItemId="{1B4F04B7-2CC5-4151-A45C-CA9F5E98CBF1}" ItemName="Server" ConfigurationId="Default" />
-      </Items>
-    </MultiItemSolutionRunConfiguration>
-  </MultiItemStartupConfigurations>
 </Properties>
